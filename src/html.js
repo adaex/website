@@ -5,7 +5,7 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-      <meta http-equiv="refresh" content="0;URL='https://afi-team.alipay.com/'" />
+      <meta http-equiv="refresh" content="0;URL=https://afi-team.alipay.com/" />
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
@@ -13,16 +13,9 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <link rel="icon" href="https://gw.alipayobjects.com/mdn/rms_f3f48a/afts/img/A*ZtzKRZPgCE8AAAAAAAAAAAAAARQnAQ" type="image/png"/>
-        {props.headComponents}
       </head>
-      <body {...props.bodyAttributes}>
-        {props.preBodyComponents}
-        <div
-          key={`body`}
-          id="___gatsby"
-          dangerouslySetInnerHTML={{ __html: props.body }}
-        />
-        {props.postBodyComponents}
+      <body>
+        重定向中
       </body>
     </html>
   )
