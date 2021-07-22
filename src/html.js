@@ -15,7 +15,7 @@ export default function HTML(props) {
         <link rel="icon" href="https://gw.alipayobjects.com/mdn/rms_f3f48a/afts/img/A*ZtzKRZPgCE8AAAAAAAAAAAAAARQnAQ" type="image/png"/>
       </head>
       <body>
-        重定向中
+        正在重定向至 afi-team.alipay.com
       </body>
     </html>
   )
