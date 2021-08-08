@@ -16,9 +16,9 @@ export default function HTML(props) {
       <body>
         <script type="text/javascript">
           if (/micromessenger/.test(navigator.userAgent.toLowerCase())) {
-            document.writeLn('<p>由于众所周知的原因，微信屏蔽了支付宝的链接，请手动复制链接并在浏览器中访问 <a href="https://afi-team.alipay.com">https://afi-team.alipay.com</a> 。我们相信一个更开放的互联网早晚会到来！</p>');
+            document.writeln('<p>由于众所周知的原因，微信屏蔽了支付宝的链接，请手动复制链接并在浏览器中访问 <a href="https://afi-team.alipay.com">https://afi-team.alipay.com</a> 。我们相信一个更开放的互联网早晚会到来！</p>');
           } else {
-            document.writeLn('<p>正在重定向至 afi-team.alipay.com</p>');
+            document.writeln('<p>正在重定向至 afi-team.alipay.com</p>');
             location.href = 'https://afi-team.alipay.com';
           }
          </script>
