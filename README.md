@@ -7,4 +7,4 @@
 
 快捷方式： [https://afi.team](https://afi.team)
 
-基于 [Gastby.js](gatsbyjs.com) 搭建，研发流程、源码、页面托管已迁移至蚂蚁内部研发平台 —— 雨燕（没错，就是我们自己的产品）。
+基于 [Gastby.js](https://gatsbyjs.com) 搭建，研发流程、源码、页面托管已迁移至蚂蚁内部研发平台 —— 雨燕（没错，就是我们自己的产品）。
